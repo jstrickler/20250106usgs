@@ -1,0 +1,19 @@
+# comments start with hash mark
+axes.titlesize : 24
+axes.labelsize : 20
+axes.grid : True
+axes.facecolor : lightgrey
+# hex values for colors
+# purple 800080
+# green 008000
+# aqua  00FFFF
+# fuchsia  FF00FF
+
+# colors to cycle through for plots on one set of axes
+axes.prop_cycle : cycler('color', ['800080', '008000', '00FFFF', 'FF00FF']) 
+
+font.family : Times New Roman
+
+lines.linewidth : 2
+
+legend.frameon : True

@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+# the above is required
+
+##################################################################
+# the follwing are used when only using this file, not setup.cfg #
+##################################################################
+
+[project]
+name = "temperature"
+version = "1.0.0"
+authors = [
+    { name="John Strickler", email="jstrickler@gmail.com" },
+]
+description = "Convert C to F and F to C"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+#    'roman >= 3.0',
+#    'requests[security] < 3',
+#    'subprocess32; python_version < "3.2"',
+]
+
+[project.scripts]
+c2f = 'temperature:_c2f_cli'
+f2c = 'temperature:_f2c_cli'
+
+

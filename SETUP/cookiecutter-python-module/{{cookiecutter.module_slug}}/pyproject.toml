@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+# the above is always required
+
+[project]
+name = "{{cookiecutter.module_slug}}"
+version = "1.0.0"
+authors = [
+    { name="{{cookiecutter.author_name}}", email="{{cookiecutter.author_email}}" },
+]
+description = "{{cookiecutter.module_description}}"
+readme = "README.{{cookiecutter.readme_format}}"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+#    'roman >= 3.0',
+]
+
+{% if cookiecutter.has_scripts == 'y' %}
+[project.scripts]
+script='{{cookiecutter.module_slug}}:_cli_script'
+{% endif %}
+
+{% if cookiecutter.author_url != "Author URL" %}
+[project.urls]
+"Homepage" = "{{cookiecutter.author_url}}"
+{% endif %}

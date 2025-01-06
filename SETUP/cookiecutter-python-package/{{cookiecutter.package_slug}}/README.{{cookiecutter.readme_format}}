@@ -1,0 +1,9 @@
+README for {{cookiecutter.package_name}}
+
+Describe your project here.
+
+Describe how to install it.
+
+Describe how to use it.
+
+Last Updated {{cookiecutter.copyright_year}}

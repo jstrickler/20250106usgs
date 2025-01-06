@@ -1,0 +1,23 @@
+version: 1  # required
+loggers:
+    root:  # root can also be directly configured
+        level: ERROR
+        handlers: # handler IDs from this file
+            - console
+            - file
+formatters:
+    minimal:
+        format: "%(name)s %(message)s"
+    full:
+        format: "%(asctime)s %(levelname)-10s %(name)-10s %(message)s"
+        datefmt: "%x %X"
+handlers:
+    console:
+        class: logging.StreamHandler
+        formatter: minimal  # formatter ID from this file
+        level: ERROR    # translated to logging.ERROR
+    file:
+        class: logging.FileHandler
+        formatter: full
+        filename: ../LOGS/yamlconfig.log
+        level: DEBUG

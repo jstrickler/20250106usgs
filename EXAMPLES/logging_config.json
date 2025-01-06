@@ -1,0 +1,32 @@
+{
+    "version": 1,
+    "loggers": {
+        "root": {
+            "level": "ERROR",
+            "handlers": ["console", "file"]
+        }
+    },
+    "formatters": {
+        "minimal": {
+            "format": "%(name)s %(message)s"
+        },
+        "full": {
+            "format": "%(asctime)s %(levelname)-10s %(name)-10s %(message)s",
+            "datefmt": "%x %X"
+        }
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "formatter": "minimal",
+            "level": "ERROR",
+            "stream": "ext://sys.stderr"
+        },
+        "file": {
+            "class": "logging.FileHandler",
+            "formatter": "full",
+            "filename": "../LOGS/jsonconfig.log",
+            "level": "DEBUG"
+        }
+    }
+}
