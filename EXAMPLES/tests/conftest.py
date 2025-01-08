@@ -10,3 +10,5 @@ def common_fixture():  # user-defined fixture
 def pytest_runtest_setup(item):
     if "test_config" in str(item):
         print(f"Hello from setup, {item}", end=" ")
+
+# register plugins

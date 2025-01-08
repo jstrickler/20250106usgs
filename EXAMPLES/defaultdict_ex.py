@@ -8,6 +8,7 @@ dd['eggs'] = 22
 print(dd['spam'])  # print values
 print(dd['eggs'])
 print(dd['foo'])  # missing key 'foo' invokes function and returns 0
+print(f"{dd = }")
 
 print('-' * 60)
 

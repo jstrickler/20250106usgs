@@ -7,6 +7,8 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
+logger = logging.getLogger(__name__)  # use the name of the file (app)
+
 logger_one = logging.getLogger("Logger1") # unique logger names
 logger_two = logging.getLogger("Logger2")
 
@@ -14,3 +16,7 @@ logger_one.info("this is information")  # use logger 1
 logger_two.warning("this is a warning")  # use logger 2
 logger_one.info("this is information")
 logger_two.critical("this is critical")
+
+#  top
+#  top.network
+#  top.database

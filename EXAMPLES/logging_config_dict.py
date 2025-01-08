@@ -45,7 +45,7 @@ dictConfig(CONFIG)
 
 if args.debug:
     root = logging.getLogger()
-    # print(root.handlers)
+    print(root.handlers)
     root.setLevel(logging.DEBUG)  # change level of file handler
 
 logging.info("script begins")

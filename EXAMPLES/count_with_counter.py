@@ -4,6 +4,9 @@ with open("../DATA/breakfast.txt") as breakfast_in:
     foods = [line.rstrip() for line in breakfast_in]  # create list of foods with EOL removed from line
 
 counts = Counter(foods)  # initialize Counter object with list of foods
+counts['ham'] += 1
+counts['toast'] += 1
+
 
 for item, count in counts.items():  # iterate over results
     print(item, count)

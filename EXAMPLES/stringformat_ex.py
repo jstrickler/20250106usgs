@@ -7,6 +7,7 @@ print('{} {}'.format(color, animal))  # {} placeholders are autonumbered, starti
 
 fahr = 98.6839832
 print('{:.1f}'.format(fahr))  # Formatting directives start with ':'; .1f means format
+print(f'{fahr:1f}')
 
 value = 12345
 print('{0:d} {0:04x} {0:08o} {0:016b}'.format(value))  # {} placeholders can be manually numbered to reuse parameters

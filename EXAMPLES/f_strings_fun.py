@@ -4,6 +4,7 @@ name = "Guido"
 print(f"name: {name}")
 # < left justify (default for non-numbers), 10 is field width, s formats a string
 print(f"name: [{name:<10s}]") 
+print(f"name: [{name:10s}]") 
 # > right justify
 print(f"name: [{name:>10s}]")
 # >. right justify and pad with dots

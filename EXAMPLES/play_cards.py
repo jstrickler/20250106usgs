@@ -4,7 +4,7 @@ deck = CardDeck("Mary")
 
 deck.shuffle()
 
-for _ in range(10):
+for _ in range(30):
     card = deck.draw()
     print(card)
 print()

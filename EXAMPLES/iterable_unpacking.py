@@ -21,6 +21,6 @@ for row in people:
     print(first_name, last_name)
 print()
 
-for first_name, last_name, _ in people:  # a for loop unpacks if there is more than one variable
-    print(first_name, last_name)
+for first_name, _, _ in people:  # a for loop unpacks if there is more than one variable
+    print(first_name)
 print()

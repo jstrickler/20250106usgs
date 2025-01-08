@@ -5,9 +5,10 @@ Knight = namedtuple('Knight', 'name title color quest comment') # create named t
 
 k = Knight('Bob', 'Sir', 'green', 'whirled peas', 'Who am i?') # create named tuple instance (must specify all fields)
 
-print(k.title, k.name) # can access fields by name...
+print(k.title, k.name) # can access fields by name...   k['title'] k['name']     k['nam'] = "Fred"
 print(k[1], k[0]) # ...or index
 print()
+print(k.name)
 
 knights = [] # initialize list for knight data
 with open('../DATA/knights.txt') as knights_in:

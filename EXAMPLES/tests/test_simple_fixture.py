@@ -16,7 +16,6 @@ db_cursor = db_conn.cursor()
 db_cursor.row_factory = sqlite3.Row  # set the row factory to be a Row object
 
 @pytest.fixture
-
 def presidents():
     db_cursor.execute('select * from presidents')
     return db_cursor.fetchall()
