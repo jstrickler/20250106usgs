@@ -15,7 +15,7 @@ SEARCH_TERMS = [  # terms to search for; each thread will search some of these t
     'business', 'frog', 'muntin', 'automobile',
     'green', 'connect','vial', 'battery', 'computer',
     'sing', 'park', 'ladle', 'ram', 'dog', 'scalpel',
-    'emulsion', 'noodle', 'combo', 'battery'
+    'emulsion', 'noodle', 'combo', 'battery', 'topo'
 ]
 def main():
     total_times = {}

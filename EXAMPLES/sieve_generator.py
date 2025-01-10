@@ -9,6 +9,6 @@ def next_prime(limit):
         yield i  # execution stops here until next value is requested by for-in loop
 
 
-np = next_prime(200)  # next_prime() returns a generator object
+np = next_prime(1000)  # next_prime() returns a generator object
 for prime in np:  # iterate over yielded primes
     print(prime, end=' ')

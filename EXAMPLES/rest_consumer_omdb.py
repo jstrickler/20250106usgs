@@ -11,7 +11,8 @@ def main():
     response = requests.get(OMDB_URL, params=requests_params)
     if response.status_code == requests.codes.OK:
         raw_data = response.json()
-
+        print(f"{response.headers.get("content-type") = }")
+        
         print(f"raw_data['Title']: {raw_data['Title']}")
         print(f"raw_data['Director']: {raw_data['Director']}")
         print(f"raw_data['Year']: {raw_data['Year']}")
@@ -21,7 +22,7 @@ def main():
         print('-' * 60)
 
         print("raw DATA:")
-        pprint(response.json())
+        pprint(response.json(), sort_dicts=False, depth=1)
     else:
         print(f"response.status_code: {response.status_code}")
 

@@ -7,11 +7,11 @@
          <last>Washington</last>
           <first>George</first>
        </name>
-       <termbegin>
+       <termstart>
            <year>1789</year>
            <month>Apr</month>
            <day>30</day>
-       </termbegin>
+       </termstart>
        <termend>
            <year>1797</year>
            <month>Mar</month>

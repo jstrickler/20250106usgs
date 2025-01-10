@@ -3,7 +3,7 @@ import csv
 from lxml import etree
 from lxml.builder import ElementMaker  # import ElementMaker
 
-NS_RIVER_URL = "http://www.cja-tech.com/ns/river"  # (fake) URL for namespace
+NS_RIVER_URL = "https://www.cja-tech.com/ns/river"  # (fake) URL for namespace
 
 E = ElementMaker(  # create ElementMaker with namespace
     namespace=NS_RIVER_URL,
@@ -11,7 +11,7 @@ E = ElementMaker(  # create ElementMaker with namespace
 )
 
 RIVER_LIST = E.riverlist  # use ElementMaker to create individual element makers
-RIVER = E.river
+RIVER = E.river  # makes <river></river> tag
 RIVER_NAME = E.name
 RIVER_LENGTH = E.length
 

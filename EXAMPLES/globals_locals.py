@@ -1,8 +1,8 @@
 from pprint import pprint  # import prettyprint function
 
 # global variables
-count = 42  
-animal = 'Wombat'
+count: int = 42  
+animal: str = 'Wombat'
 
 def spam(fruit):  # function parameters are local
     knight = 'Lancelot'  # local variable
@@ -20,3 +20,6 @@ print()
 g = globals()
 g['color'] = "blue"  # create a new variable
 print("color:", color)
+del g['count']  # same as 'del count'
+print(f"{count = }")
+

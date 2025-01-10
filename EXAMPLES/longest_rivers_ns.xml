@@ -1,0 +1,42 @@
+<lr:riverlist xmlns:lr="https://www.cja-tech.com/ns/river">
+  <lr:river>
+    <lr:name>Nile</lr:name>
+    <lr:length>4132</lr:length>
+  </lr:river>
+  <lr:river>
+    <lr:name>Amazon River</lr:name>
+    <lr:length>3976</lr:length>
+  </lr:river>
+  <lr:river>
+    <lr:name>Yangtze</lr:name>
+    <lr:length>3917</lr:length>
+  </lr:river>
+  <lr:river>
+    <lr:name>Mississippi River</lr:name>
+    <lr:length>3902</lr:length>
+  </lr:river>
+  <lr:river>
+    <lr:name>Yenisei River</lr:name>
+    <lr:length>3445</lr:length>
+  </lr:river>
+  <lr:river>
+    <lr:name>Yellow River</lr:name>
+    <lr:length>3395</lr:length>
+  </lr:river>
+  <lr:river>
+    <lr:name>Ob River</lr:name>
+    <lr:length>3364</lr:length>
+  </lr:river>
+  <lr:river>
+    <lr:name>R&#195;&#173;o de la Plata</lr:name>
+    <lr:length>3030</lr:length>
+  </lr:river>
+  <lr:river>
+    <lr:name>Congo River</lr:name>
+    <lr:length>2922</lr:length>
+  </lr:river>
+  <lr:river>
+    <lr:name>Amur River</lr:name>
+    <lr:length>2763</lr:length>
+  </lr:river>
+</lr:riverlist>

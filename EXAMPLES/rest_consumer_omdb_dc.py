@@ -35,5 +35,8 @@ def main():
     for movie in sorted(movies, key=lambda m: m.Year):
         print(movie.Year, movie.Title)
 
+    print()
+    pprint(movies[0])
+
 if __name__ == '__main__':
     main()

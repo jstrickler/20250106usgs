@@ -15,7 +15,7 @@ for d in doubles:
     print(d, end=' ')
 print("\n")
 
-nums = (int(s) for s in values if isinstance(s, int))
+nums = (s for s in values if isinstance(s, int))
 for n in nums:
     print(n, end=' ')
 print("\n")

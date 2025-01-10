@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='ASCII'?>
+<root>
+  <rivers type="list">
+    <item type="dict">
+      <name type="str">Nile</name>
+      <length type="str">4132</length>
+    </item>
+    <item type="dict">
+      <name type="str">Amazon River</name>
+      <length type="str">3976</length>
+    </item>
+    <item type="dict">
+      <name type="str">Yangtze</name>
+      <length type="str">3917</length>
+    </item>
+    <item type="dict">
+      <name type="str">Mississippi River</name>
+      <length type="str">3902</length>
+    </item>
+    <item type="dict">
+      <name type="str">Yenisei River</name>
+      <length type="str">3445</length>
+    </item>
+    <item type="dict">
+      <name type="str">Yellow River</name>
+      <length type="str">3395</length>
+    </item>
+    <item type="dict">
+      <name type="str">Ob River</name>
+      <length type="str">3364</length>
+    </item>
+    <item type="dict">
+      <name type="str">R&#195;&#173;o de la Plata</name>
+      <length type="str">3030</length>
+    </item>
+    <item type="dict">
+      <name type="str">Congo River</name>
+      <length type="str">2922</length>
+    </item>
+    <item type="dict">
+      <name type="str">Amur River</name>
+      <length type="str">2763</length>
+    </item>
+  </rivers>
+</root>

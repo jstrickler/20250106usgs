@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='ASCII'?>
+<rivers>
+  <river>
+    <name>Nile</name>
+    <length>4132</length>
+  </river>
+  <river>
+    <name>Amazon River</name>
+    <length>3976</length>
+  </river>
+  <river>
+    <name>Yangtze</name>
+    <length>3917</length>
+  </river>
+  <river>
+    <name>Mississippi River</name>
+    <length>3902</length>
+  </river>
+  <river>
+    <name>Yenisei River</name>
+    <length>3445</length>
+  </river>
+  <river>
+    <name>Yellow River</name>
+    <length>3395</length>
+  </river>
+  <river>
+    <name>Ob River</name>
+    <length>3364</length>
+  </river>
+  <river>
+    <name>R&#195;&#173;o de la Plata</name>
+    <length>3030</length>
+  </river>
+  <river>
+    <name>Congo River</name>
+    <length>2922</length>
+  </river>
+  <river>
+    <name>Amur River</name>
+    <length>2763</length>
+  </river>
+</rivers>

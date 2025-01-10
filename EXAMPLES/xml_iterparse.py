@@ -13,7 +13,7 @@ def main():
         year_completed = element.findtext('.//DateCompleted/Year')
         month_completed = element.findtext('.//DateCompleted/Month')
         clear_element(element)  # Clear element after all wanted data is extracted
-        print(f"{month_completed}/{year_completed} {article_title[:70]}")
+        print(f"{i} {month_completed}/{year_completed} {article_title[:70]}")
 
     print(f"Total count: {i}")
 

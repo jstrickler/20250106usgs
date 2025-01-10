@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='ASCII'?>
+<primeministers>
+  <primeminister>
+    <firstname title="Sir">Sir John A.</firstname>
+    <lastname>Macdonald</lastname>
+    <party>Liberal-Conservative</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">Alexander</firstname>
+    <lastname>Mackenzie</lastname>
+    <party>Liberal</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="Sir">Sir John A.</firstname>
+    <lastname>Macdonald</lastname>
+    <party>Liberal-Conservative</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="Sir">Sir John</firstname>
+    <lastname>Albott</lastname>
+    <party>Liberal-Conservative</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">Thompson</firstname>
+    <lastname>Sir John</lastname>
+    <party>Conservative</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="Sir">Sir Mackenzie</firstname>
+    <lastname>Bowell</lastname>
+    <party>Conservative</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="Sir">Sir Charles</firstname>
+    <lastname>Tupper</lastname>
+    <party>Conservative</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="Sir">Sir Wilfred</firstname>
+    <lastname>Laurier</lastname>
+    <party>Liberal</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="Sir">Sir Robert</firstname>
+    <lastname>Borden</lastname>
+    <party>Conservative</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="Sir">Sir Robert</firstname>
+    <lastname>Borden</lastname>
+    <party>Unionist</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">Arthur</firstname>
+    <lastname>Meighen</lastname>
+    <party>NLC</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">William Lyon Mackenzie</firstname>
+    <lastname>King</lastname>
+    <party>Liberal</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">Arthur</firstname>
+    <lastname>Meighen</lastname>
+    <party>Conservative</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">William Lyon Mackenzie</firstname>
+    <lastname>King</lastname>
+    <party>Liberal</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">Richard Bedford</firstname>
+    <lastname>Bennett</lastname>
+    <party>Conservative</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">William Lyon Mackenzie</firstname>
+    <lastname>King</lastname>
+    <party>Liberal</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">Louis</firstname>
+    <lastname>St. Laurent</lastname>
+    <party>Liberal</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">John</firstname>
+    <lastname>Diefenbaker</lastname>
+    <party>Progressive Conservative</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">Lester B.</firstname>
+    <lastname>Pearson</lastname>
+    <party>Liberal</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">Pierre</firstname>
+    <lastname>Trudeau</lastname>
+    <party>Liberal</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">Joe</firstname>
+    <lastname>Clark</lastname>
+    <party>Progressive Conservative</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">Pierre</firstname>
+    <lastname>Trudeau</lastname>
+    <party>Liberal</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">John</firstname>
+    <lastname>Turner</lastname>
+    <party>Liberal</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">Brian</firstname>
+    <lastname>Mulroney</lastname>
+    <party>Progressive Conservative</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">Kim</firstname>
+    <lastname>Campbell</lastname>
+    <party>Progressive Conservative</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">Jean</firstname>
+    <lastname>Chretien</lastname>
+    <party>Liberal</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">Paul</firstname>
+    <lastname>Martin</lastname>
+    <party>Liberal</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">Stephen</firstname>
+    <lastname>Harper</lastname>
+    <party>Conservative</party>
+  </primeminister>
+  <primeminister>
+    <firstname title="NONE">Justin</firstname>
+    <lastname>Trudeau</lastname>
+    <party>Liberal</party>
+  </primeminister>
+</primeministers>
