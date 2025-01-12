@@ -4,7 +4,7 @@ from subprocess import run  # for running external PDF viewer
 import requests
 
 url = 'https://www.nasa.gov/wp-content/uploads/2021/12/sls_fact_sheet.pdf'  # target URL
-saved_pdf_file = 'nasa.pdf'  # name of PDF file for saving
+saved_pdf_file = 'sls_fact_sheet.pdf'  # name of PDF file for saving
 
 response = requests.get(url)  # open the URL
 if response.ok:  # check status code

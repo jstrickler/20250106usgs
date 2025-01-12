@@ -1,6 +1,8 @@
-def annoy_cat(times: int | None) -> str:
+def annoy_cat(times: int | None = None) -> str:
     # This line generates the mypy output:
     # 'note: Right operand is of type "int | None"'
+    if times == None:
+        times = 1
     return 'meow' * times
 
 print(f"{annoy_cat(3) = }")

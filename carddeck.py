@@ -139,3 +139,6 @@ if __name__ == '__main__':
     d = CardDeck("Mary")
     d.shuffle()
     print(d.cards)
+    print(d.get_ranks())
+    print(CardDeck.get_ranks())
+    

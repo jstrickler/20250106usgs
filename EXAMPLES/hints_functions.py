@@ -22,3 +22,28 @@ def shout_various(**kwargs: int) -> None:
 
 shout_various(python=10, perl=1, c=3)
 
+
+def spam(names: list[str]) -> int:
+    print(f"{names = }")
+    
+    return 42
+
+spam(['Fred', 'Moe', 'Al'])
+spam([1, 5, 9])
+
+x = list[list[str]]
+y = list[tuple[int, int, str]]
+z = list[tuple[float, ...]]
+
+d = dict[str, list[int]]
+
+s = set[str]
+
+def triple(x: int|float) -> int|float:
+    return x * 3
+
+print(f"{triple(5) = }")
+print(f"{triple(1.5) = }")
+
+
+

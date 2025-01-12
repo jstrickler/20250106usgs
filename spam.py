@@ -1,11 +1,7 @@
-x = "rainbow"
-
-print(f"{x = }")
-print('-' * 60)
-
-if __name__ == "__main__":
-    ...
-
-# int float str 
-# list tuple dict set
-
+# coding: utf-8
+dir
+get_ipython().run_line_magic('dir', '')
+get_ipython().system('dir')
+get_ipython().system('notepad')
+get_ipython().system('hostname')
+h = get_ipython().getoutput('hostname')

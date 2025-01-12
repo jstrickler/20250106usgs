@@ -14,7 +14,7 @@ class Bicycle:
     def remove_parts(self):
         print("removing parts from Bicycle")
 
-def destroy(junk: Car | Refrigerator | ACUnit) -> None:
+def destroy(junk: Car|Refrigerator|ACUnit) -> None:
     if isinstance(junk, Car):
         junk.send_to_crusher()
     elif isinstance(junk, Refrigerator):
