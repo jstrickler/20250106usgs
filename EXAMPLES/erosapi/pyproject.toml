@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+# the above is required
+
+[project]
+name = "erosapi"
+version = "1.0.0"
+authors = [
+    { name="John Strickler", email="jstrickler@gmail.com" },
+]
+description = "Access the USGS EROS API"
+readme = "README.rst"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+#    'roman >= 3.0',
+#    'requests[security] < 3',
+#    'subprocess32; python_version < "3.2"',
+]
+
+
+
+
+
+[project.urls]
+"Homepage" = "https://www.cja-tech.com"
+
