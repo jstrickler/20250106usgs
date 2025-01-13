@@ -7,11 +7,11 @@ def main():
     # Get from file, keyboard, or environment
     USERNAME = "jstrickler@gmail.com"
     TOKEN = "OFn!BsIVaWjZs!YqFRsH2WsXxP11WD0AIWXyYGGtDcG4EF0IM1F!WVoV3kPPH908"
-    ds: EROSDataset = EROSDataset(username=USERNAME, application_token=TOKEN)
+    ds = EROSDataset(username=USERNAME, application_token=TOKEN)
     print(f"{ds.username = }")
     print(f"{ds.application_token = }")
     print(f"{ds.login_token = }")
-    catalogs = ds.get_catalog()
+    catalogs = ds.get_catalog()  # access dataset-catalog endpoint
     print(f"{catalogs = }")
     parameters = {
         "datasetName": "Global Land Survey",

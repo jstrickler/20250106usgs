@@ -20,7 +20,7 @@ class EROSBase:
         if response.ok:
             self._login_token = response.json()['data']
         else:
-            raise Exception("Unable to get API KEY")        
+            raise Exception("Unable to get API KEY")
 
     @property
     def username(self) -> str:
@@ -44,4 +44,7 @@ class EROSBase:
         if response.ok:
             return response.json()['data']
         else:
-            raise Exception("Unable to get API KEY")        
+            raise Exception("Unable to get API KEY")     
+
+    def __del__(self):
+        self._get_data(endpoint='logout', params={})

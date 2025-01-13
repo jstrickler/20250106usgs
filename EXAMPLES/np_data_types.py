@@ -15,3 +15,4 @@ r3.shape = (3, 3, 5)
 print('r3 datatype:', r3.dtype)
 print('r3 =>\n', r3, '\n')
 
+np.uint

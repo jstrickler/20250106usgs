@@ -3,6 +3,10 @@ import json
 from erosapi.erosbase import EROSBase
 
 class EROSDataset(EROSBase):
+    # def __init__(self):
+    #     super().__init__()
+    #     # local code
+
     def get_catalog(self):
         return self._get_data(endpoint="dataset-catalogs", params={})
     

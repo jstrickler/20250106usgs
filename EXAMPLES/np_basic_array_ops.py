@@ -51,3 +51,6 @@ print()
 a += 1000  # add 1000 to every element of a (in place)
 print("a after 'a += 1000'")
 print(a)
+
+x = a * 3  # NOT in place
+a *= 3  # in place

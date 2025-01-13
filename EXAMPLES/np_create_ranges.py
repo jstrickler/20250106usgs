@@ -1,5 +1,6 @@
 import numpy as np
 
+#  np.arange(1,51)  1-50
 r1 = np.arange(50)  # create range of ints from 0 to 49
 print(r1)
 print("size is", r1.size)  # size is 50
